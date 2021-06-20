@@ -17,5 +17,12 @@ class A:
         a *= 6
         return a//i
     
+    
+class B: 
+    
+    def __init__(self):
+        print('A class B def here')
+        
+    
 a = A()
 a.statMethod(4, 24)
