@@ -16,6 +16,11 @@ class A:
         i ^= 5
         a *= 6
         return a//i
+
+
+class C:
+	def __init__(self):
+		print('C is my class name')
     
     
 class B: 
